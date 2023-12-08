@@ -1,0 +1,33 @@
+* {
+    background-color: gold;
+}
+
+.title {
+    color: brown;
+    font-size: 40px;
+    text-align: center;
+}
+.title.left {
+    text-align: left;
+}
+.recipe,
+.text {
+    color: brown;
+    font-size: 24px;
+}
+
+.text.description {
+    text-align: center;
+}
+
+.image {
+    height: auto;
+    width: 300px;
+    display: block;
+    margin:0px auto;
+}
+
+.back-button {
+    color: brown;
+    font-size: 24px;
+}

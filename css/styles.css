@@ -123,3 +123,9 @@
     background-color: #d04949;
     color: white;
 }
+
+@media (max-width: 600px) {
+    .text.box-steps {
+        width: auto;
+    }
+}

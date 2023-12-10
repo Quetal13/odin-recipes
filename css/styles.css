@@ -46,6 +46,10 @@
     font-size: 24px;
 }
 
+.button:hover {
+    color: yellow;
+}
+
 .back-button {
     text-decoration: none;
 }

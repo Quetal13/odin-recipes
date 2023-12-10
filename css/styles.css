@@ -16,6 +16,10 @@
     font-size: 24px;
 }
 
+.text {
+    position: relative;
+}
+
 .text.description {
     text-align: center;
 }
@@ -35,7 +39,7 @@
     display: block;
     padding: 20px;
     margin: 0 auto;
-    background-color: brown;
+    background-color: #d04949;
     color: white;
     border: none;
     outline: none;
@@ -47,10 +51,15 @@
 }
 
 .button:hover {
-    color: yellow;
+    color: brown;
 }
 
 .back-button {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 50px;
     text-decoration: none;
 }
 
@@ -60,11 +69,57 @@
 }
 
 .recipes {
-    width: 500px;
-    height: 30px;
+    width: 20rem;
+    height: auto;
     margin: auto;
+    padding: 20px;
+    background-color: #d04949;
+    border: 5px solid brown; 
+    border-radius: 10px;
 }
 
-.principal-list {
+.recipe {
+    text-decoration: none;
+}
+
+.text.box-ingredients,
+.text.box-steps,
+.text.box-description {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #d04949;
+    border: 5px solid brown;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.text.box-ingredients ul,
+.text.box-steps ol {
     list-style-type: none;
+    background-color: #d04949;
+    padding: 0px;
+}
+
+.text.box-ingredients li,
+.text.box-steps li {
+    background-color: #d04949;
+}
+
+.text.box-steps {
+    width: 40rem;
+}
+
+.text.box-description {
+    margin-top: 40px;
+}
+.text.box-description p {
+    background-color: #d04949;
+    color: white;
 }
